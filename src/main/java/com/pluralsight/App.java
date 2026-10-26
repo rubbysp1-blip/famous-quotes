@@ -19,5 +19,12 @@ public class App {
                 "Some days you'll conquer the world. Other days you'll conquer your laundry. Both are victories.",
                 "Keep going! Your future self is counting on you, and honestly, they've got enough problems already."
         };
+
+        System.out.print("Enter a number from 1-10 to get the quote: ");
+        int quoteNumber = input.nextInt();
+
+        int quoteIndex = quoteNumber - 1;
+
+        System.out.println(quotes[quoteIndex]);
     }
 }
