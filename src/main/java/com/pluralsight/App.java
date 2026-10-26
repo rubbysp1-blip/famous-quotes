@@ -30,9 +30,10 @@ public class App {
 
             System.out.println(quotes[quoteIndex]);
 
-        } catch (Exception e) {
+        } catch (ArrayIndexOutOfBoundsException e) {
             //throw new RuntimeException(e);
             System.out.println("Number entered is not in range!");
+            //e.printStackTrace();
         }
 
         System.out.println("Goodbye!");
