@@ -28,11 +28,15 @@ public class App {
 
             quoteIndex = quoteNumber - 1;
 
+            System.out.println(quotes[quoteIndex]);
+
         } catch (Exception e) {
             //throw new RuntimeException(e);
-            System.out.println("Number entered is not in the range!");
+            System.out.println("Number entered is not in range!");
         }
 
-        System.out.println(quotes[quoteIndex]);
+        System.out.println("Goodbye!");
+        input.close();
+
     }
 }
